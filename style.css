@@ -93,3 +93,140 @@ body {
     text-decoration: underline;
   }
   
+  @media only screen and (max-width: 1100px){
+    .name{
+        font-size: 3.5rem;
+      }
+     .img{
+        width:20%;
+      }
+    
+      .about-me{
+        margin: 8rem 6rem;
+      }
+    
+      .about-text{
+        width: 75%;
+        font-size: 1.2rem;
+      }
+
+      h2{
+        font-size: 2.3rem;
+        text-transform: uppercase;
+        margin: 2rem 0;
+      }
+    
+      dl{
+        margin: 4.5rem;
+      }
+      dt{
+        font-size: 1.3rem; 
+      }
+      dd{
+        font-size: 1rem;
+      }
+  }
+
+  @media only screen and (max-width: 950px){
+    .name{
+        font-size: 2.5rem;
+      }
+    
+      h2{
+        font-size: 2rem;
+      }
+  }
+
+  @media only screen and (max-width: 768px){
+    .name{
+        font-size: 2rem;
+      }
+    
+
+      .about-me{
+        margin: 6rem 2rem;
+      }
+    
+      .about-text{
+        font-size: 1rem;
+      }
+    
+      h2{
+        font-size: 1.4rem;
+      }
+    
+      dl{
+        margin: 5rem 2rem;
+      }
+      dt{
+        font-size: 1.2rem;
+      }
+      dd{
+        font-size: 1rem;
+      }
+    
+      .time{
+        /* color: #007BFF; */
+        font-size: 1.2rem;
+      }
+  }
+
+  @media only screen and (max-width: 600px){
+    body {
+        margin: 1rem;
+      }
+
+    .name{
+        font-size: 1.5rem;
+        margin: 2rem 0;
+
+      }
+
+      .about-me{
+        display:block;
+        margin: 3rem 0;
+      }
+    
+      .about-text{
+        width: 90%;
+        font-size:.9rem;
+      }
+      
+      .img{
+        width:40%;
+      }
+    
+      h2{
+        font-size: 1rem;
+        margin: 1rem 0;
+      }
+    
+      dl{
+        margin: 0rem;
+      }
+      dt{
+        font-size: 1rem;
+        margin: 1rem 0;
+    
+      }
+      dd{
+        font-size: .8rem;
+    
+      }
+    
+      .name-time{
+        display: block;
+       
+      }
+    
+      .time{
+        /* color: #007BFF; */
+        font-size: 1rem;
+      }
+    
+      .links a {
+        margin:.5rem 0;
+        display: block;
+      }
+
+  }
