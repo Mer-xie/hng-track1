@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 3rem;
+    padding: 0;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+
+  .name{
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin: 4rem 0;
+    line-height: 1.5;
+    letter-spacing: 5px;
+  }
+  span{
+    color: #007BFF;
+  }
+
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .about-me{
+    display:flex;
+    justify-content: space-between;
+    margin: 8rem 10rem;
+  }
+
+  .about-text{
+    align-self: center;
+    width: 70%;
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  
+  .img{
+    width:20%;
+  }
+
+  .goals{
+    margin: 3rem 0;
+  }
+
+  h2{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 2rem 0;
+  }
+
+  dl{
+    margin: 5rem;
+  }
+  dt{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    color: #007BFF;
+
+  }
+  dd{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+
+  .name-time{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .time{
+    /* color: #007BFF; */
+    font-size: 1.3rem;
+  }
+
+  .links a {
+    margin-right:.5rem;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
