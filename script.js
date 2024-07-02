@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Display current time in UTC
-    const currentTimeUTC = document.querySelector('[data-testid="currentTimeUTC"]');
+    const currentUTCTime = document.querySelector('[data-testid="currentTimeUTC"]');
     const updateTime = () => {
       const now = new Date();
-      currentTimeUTC.textContent = `${now.toUTCString()}`;
+      currentUTCTime.textContent = `${now.toUTCString()}`;
     };
     updateTime();
     setInterval(updateTime, 1000);
